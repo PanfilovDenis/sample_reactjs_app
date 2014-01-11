@@ -4,6 +4,9 @@
     %title Test
     = stylesheet_link_tag    "application"
     = csrf_meta_tags
+
   %body
+    .jumbotron.masthead
+      %h1 Sample reactjs app
     = yield
     = javascript_include_tag "application"
